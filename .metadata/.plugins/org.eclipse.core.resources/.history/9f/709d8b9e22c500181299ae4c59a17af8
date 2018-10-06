@@ -1,0 +1,23 @@
+package class6;
+
+public class AccessSpecifier {
+	
+	// Four Types of Access Specifiers / Modifier
+	// 1. private
+	// 2. Default
+	// 3. Protected
+	// 4. Public
+	
+	private int a;
+	private void privateMethod(){
+		
+	}
+	
+	public void publicMethod(){
+		a =10;
+		System.out.println("a ="+a);
+	}
+	int b;
+
+	
+}

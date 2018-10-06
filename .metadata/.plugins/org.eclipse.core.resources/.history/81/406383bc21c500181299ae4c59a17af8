@@ -1,0 +1,15 @@
+package class6;
+
+public class AccessSpecifier {
+	
+	// Four Types of Access Specifiers / Modifer
+	// 1. private
+	// 2. Default
+	// 3. Protected
+	// 4. Public
+	
+	private int a;
+	int b;
+
+	
+}

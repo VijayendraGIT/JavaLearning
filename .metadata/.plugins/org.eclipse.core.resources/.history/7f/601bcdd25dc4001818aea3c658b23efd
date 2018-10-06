@@ -1,0 +1,13 @@
+package class5;
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+
+		Dog obj = new Dog();
+		obj.eat(); // Accessing Parent -Animal class method
+		obj.Bark(); // Accessing own methods
+
+	}
+
+}

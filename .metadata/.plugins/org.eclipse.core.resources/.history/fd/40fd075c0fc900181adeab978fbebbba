@@ -1,0 +1,22 @@
+package class9;
+
+public class WapperClasses {
+
+	// Used for conversion between one data type to another data type
+	// Integer, Double, Boolean => Wrapper classes
+	// String -> Int , String to double, Int -> String
+	
+	public static void main(String[] args) {
+		
+		// String -> Int
+		
+		String str = "10";
+		
+		int value = Integer.parseInt(str);
+		System.out.println("int value = "+value);
+		
+
+
+	}
+
+}

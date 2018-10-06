@@ -1,0 +1,15 @@
+package class6;
+
+public class TestClass {
+
+	public static void main(String[] args) {
+
+		AccessSpecifier obj = new AccessSpecifier();
+		//obj.a = 10; -> Not allowed due to Private member of base class
+		obj.b = 20;
+
+		AccessSpecifierChild child = new AccessSpecifierChild();
+		child.publicMethod();
+	}
+
+}

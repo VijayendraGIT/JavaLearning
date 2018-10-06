@@ -1,0 +1,19 @@
+package class8;
+
+public class StudentRegistration {
+	
+	String name;
+	int age;
+	String section;
+	
+	StudentRegistration(String name,int age, String section){
+		this.name = name;
+		this.age = age;
+		this.section = section;
+	}
+	public static void main(String[] args) {
+	
+
+	}
+
+}

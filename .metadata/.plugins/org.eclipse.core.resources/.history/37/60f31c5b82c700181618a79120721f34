@@ -1,0 +1,22 @@
+package class8;
+
+public class NestedClasses {
+	
+	static int data = 30;
+	
+	static class Inner{
+		
+		// Non Static method
+		void display(){
+			System.out.println("Data = "+data);
+		}
+	}
+
+	public static void main(String[] args) {
+
+		NestedClasses.Inner obj = new NestedClasses.Inner();
+		obj.display();
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package class8;
+
+public class StaticExample {
+	
+	// 1. Class variable
+	// 2. Class methods/ functions 
+	// 3. Initalizer Blocks
+	// 4. Nested Classes
+	
+	static int a;
+	
+
+	public static void main(String[] args) {
+
+
+	}
+
+}
