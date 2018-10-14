@@ -1,0 +1,34 @@
+package class13;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+// 2 Types:
+// Checked Exception - Compile time exceptions , It should be handled by programers
+// Unchecked exceptions - Run time exceptions, situations which programers can't identify
+// like program logic error, bugs
+// Error : Error is irrecoverable , ex - VM has gone out of memory etc
+
+public class ExceptionsTest {
+	
+	
+
+	public static void main(String[] args) {
+
+		File file = new File("myFile.txt");
+		
+		try {
+			FileReader fr = new FileReader(file);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		try {
+			int a = 50/0; // ArthematicException will be thrown
+		} catch (ArithmeticException e){
+			e.printStackTrace();
+		}
+	}
+
+}

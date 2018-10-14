@@ -1,0 +1,21 @@
+package class10;
+
+// Polymorphism => Can have multiple Form
+// 1. Static Polymorphism - Compile time polymorphism - Overloading
+// 2. Dynamic Polymorphism
+
+public class PolymorphismBase {
+	
+	void PolymorphismBaseMethod1(){
+		System.out.println("PolymorphismBase- Calling method1");
+	}
+
+	void PolymorphismBaseMethod1(int a){
+		System.out.println("PolymorphismBase- Calling method1 with one argument");
+	}
+	
+	void PolymorphismBaseMethod1(int a, double d){
+		System.out.println("PolymorphismBase- Calling method1 with two argument");
+	}
+	
+}

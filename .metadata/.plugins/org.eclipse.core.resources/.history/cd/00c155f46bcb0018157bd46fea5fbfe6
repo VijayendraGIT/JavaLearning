@@ -1,0 +1,29 @@
+package class11;
+
+public class ImplementSchool implements InterfaceClassSchool{
+	
+	public void open(){
+		
+		System.out.println("School should have Open timmings");
+	}
+	public void close(){
+		
+		System.out.println("School should have Close timmings");
+	
+	}
+	public void students(){
+		
+		System.out.println("School should have Stundents");
+	}
+	public void classes(){
+		
+		System.out.println("School should have Classes");
+		
+	}
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

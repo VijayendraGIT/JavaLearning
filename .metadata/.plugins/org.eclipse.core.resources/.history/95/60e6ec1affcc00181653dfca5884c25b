@@ -1,0 +1,8 @@
+package class12;
+
+public interface A {
+
+	// By default abstract
+	void interfaceMethod1();
+	void interfacemethod2();
+}
