@@ -1,0 +1,34 @@
+package session21;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ExcelReadAndWrite {
+	
+	/*              XLS				XLSX
+	 * Workbook  HSSFWorkbook	XSSFWorkbook
+	 * Sheet	 HSSFSheet		XSSFSheet
+	 * Row		 HSSFRow		XSSFRow
+	 * Cell		 HSSFCell		XSSFCell
+	 * 
+	 */
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+	 String filepath = System.getProperty("user.dir");
+		System.out.println(filepath);
+		String filename = filepath+"\\xls-example.xlsx";
+		//1. Create a file object with filepath along with filename
+		File file = new File(filename);
+		
+		//2. Create object of i/p stream to read excel file
+		FileInputStream  inputStream = new FileInputStream(file);
+		
+		//3. Find extenstion of the file 
+		String extention = file
+
+
+	}
+
+}

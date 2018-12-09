@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google Search Suite">
+	<test name="Google Page Validation">
+		<classes>
+			<class name="googlePageValidation.SearchPageTest">
+			</class>
+
+		</classes>
+
+	</test>
+	<test name="Google Page Re-Validation">
+		<classes>
+			<class name="googlePageValidation.SearchPageTest2">
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,23 @@
+package session21;
+
+public class ExcelReadAndWrite {
+	
+	/*              XLS				XLSX
+	 * Workbook  HSSFWorkbook	XSSFWorkbook
+	 * Sheet	 HSSFSheet		XSSFSheet
+	 * Row		 HSSFRow		XSSFRow
+	 * Cell		 HSSFCell		XSSFCell
+	 * 
+	 */
+
+	public static void main(String[] args) {
+		
+	 String filepath = System.getProperty("user.dir");
+		System.out.println(filepath);
+		
+		File file = new File("E:\\Work\\JavaLearningClasses2\\SeleniumLearning\\xls-example.xlsx");
+
+
+	}
+
+}

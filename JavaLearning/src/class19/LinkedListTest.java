@@ -17,6 +17,7 @@ public class LinkedListTest {
 		ll.add("A");
 		ll.add("B");
 		ll.add("C");
+		ll.add(null);
 		ll.addFirst("First Item");
 		ll.addLast("Last Item");
 

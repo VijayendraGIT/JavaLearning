@@ -1,0 +1,7 @@
+url=https://www.google.com/intl/en-GB/gmail/about/#
+SignInButton=//a[@class='gmail-nav__nav-link gmail-nav__nav-link__sign-in']
+EmailID=identifierId
+NextButtonEmail=//div[@id='identifierNext']//content[@class='CwaK9']
+password=//input[@name='password']
+NextButtonPass=//span[contains(text(),'Next')]
+searchBox=

@@ -1,0 +1,6 @@
+url=https://www.google.com/intl/en-GB/gmail/about/#
+SignInButton=//a[@class='gmail-nav__nav-link gmail-nav__nav-link__sign-in']
+EmailID=
+NextButtonEmail=
+Password=
+NextButtonPass=

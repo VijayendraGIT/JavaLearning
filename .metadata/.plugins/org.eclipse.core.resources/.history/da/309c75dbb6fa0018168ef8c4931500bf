@@ -1,0 +1,67 @@
+package operations;
+
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class PerformUIOperations {
+	
+	WebDriver driver;
+	
+	public PerformUIOperations(WebDriver driver){
+		this.driver = driver;
+	}
+	
+	private By getObject(Properties p, String objName, String objType){
+		
+		//Find by xpath
+		if(objType.equalsIgnoreCase("XPATH")){
+			return By.xpath(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("CLASS")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("ID")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("NAME")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("LINKTEXT")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("PARTIALLINKTEXT")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("CSS")){
+			return By.className(p.getProperty(objName));
+		}
+		else if(objType.equalsIgnoreCase("TAG")){
+			return By.className(p.getProperty(objName));
+		}
+		
+		return null;
+	}
+
+	public void performOperation(Properties p,String operation,String objName, String objType, String objValue){
+		switch (operation.toUpperCase()){
+		case "CLICK":
+			//Perform Click operation
+			driver.findElement(this.getObject(p, objName, objType)).click();
+			break;
+		case "SENDTEXT":
+			//Perform Senkeys operation
+			driver.findElement(this.getObject(p, objName, objType)).sendKeys(objValue);
+			break;
+		case "GOTOURL":
+			//Open Page
+			driver.get(p.getProperty(objValue));
+			break;
+		default:
+			break;
+		}
+		
+	}
+
+}

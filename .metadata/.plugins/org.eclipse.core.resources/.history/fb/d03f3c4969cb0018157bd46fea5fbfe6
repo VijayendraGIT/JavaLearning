@@ -1,7 +1,0 @@
-package class11;
-
-// it is a guidlines and specify behaviour that class must implement
-// only methods are delaared
-public class InterfaceClass {
-
-}

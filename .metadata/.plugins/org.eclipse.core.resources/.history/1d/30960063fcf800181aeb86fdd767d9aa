@@ -1,0 +1,21 @@
+package session23;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class ReadpropertyFile {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		Properties p = new Properties();
+		File file = new File(System.getProperty("user.dir")+"object.properties");
+		InputStream stream = new FileInputStream(file);
+		
+		p.load(stream);
+
+	}
+
+}

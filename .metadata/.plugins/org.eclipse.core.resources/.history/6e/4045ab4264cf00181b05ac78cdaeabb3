@@ -1,8 +1,0 @@
-package class14;
-
-// Custom excetipion class : Used to get more relevant information of Exception to reach out to Root Cause of problem
-public class IncorrectFileNameException{
-
-	
-
-}

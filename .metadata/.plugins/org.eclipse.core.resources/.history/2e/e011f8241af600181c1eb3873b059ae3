@@ -1,0 +1,12 @@
+
+
+import org.testng.annotations.Test;
+
+public class DemoMaven {
+	
+	@Test
+	public void demoTest(){
+		System.out.println("Demo Test running !!");
+	}
+
+}

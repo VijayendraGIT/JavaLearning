@@ -1,0 +1,19 @@
+1. testNG -> Test New Generation
+2. Extention of JUnit unit testing framework
+3. Open Source free jar files
+4. It is also a TDD (test driven development) .Framework along with development, tests can also be written
+5. no main method inside testNG , driven by annotations
+
+Benefits:
+1. Good HTML reports
+2. Lot of annotations to drive test cases
+3. priortize test cases
+4. mark dependencies of test cases
+5. Group test cases
+6. Data can be provided via DataProvider
+7. Design testcases in Systematic way
+
+Installation Steps:
+1. In Eclipse -> Help -> install new Software
+2. Search URL in textbox :  http://beust.com/eclipse
+3. Check TestNG Checkbox and say finish

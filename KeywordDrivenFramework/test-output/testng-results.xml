@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84995" started-at="2018-12-09T03:20:07Z" finished-at="2018-12-09T03:21:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84995" started-at="2018-12-09T03:20:07Z" finished-at="2018-12-09T03:21:32Z">
+      <class name="testcases.ExceuteTest">
+        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="beforeLogin" is-config="true" duration-ms="1055" started-at="2018-12-09T03:20:07Z" finished-at="2018-12-09T03:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="invokeBrowser" is-config="true" duration-ms="5016" started-at="2018-12-09T03:20:08Z" finished-at="2018-12-09T03:20:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="testLogin" duration-ms="39320" started-at="2018-12-09T03:20:13Z" finished-at="2018-12-09T03:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="2397" started-at="2018-12-09T03:20:53Z" finished-at="2018-12-09T03:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="invokeBrowser" is-config="true" duration-ms="3537" started-at="2018-12-09T03:20:55Z" finished-at="2018-12-09T03:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="testLogin" duration-ms="31465" started-at="2018-12-09T03:20:59Z" finished-at="2018-12-09T03:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ExceuteTest@2db7a79b]" name="tearDown" is-config="true" duration-ms="2150" started-at="2018-12-09T03:21:30Z" finished-at="2018-12-09T03:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ExceuteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+package mavenTest;
+
+public class DemoMaven {
+	
+	@Test
+	public void demoTest(){
+		System.out.println("Demo Test running !!");
+	}
+
+}

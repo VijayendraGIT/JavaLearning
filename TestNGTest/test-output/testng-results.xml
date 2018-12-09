@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG testing demo" duration-ms="155" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+    <groups>
+      <group name="Group 2">
+        <method signature="TestNGFeaturesTest.test6()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test6" class="class17.TestNGFeaturesTest"/>
+        <method signature="TestNGFeaturesTest.test7()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test7" class="class17.TestNGFeaturesTest"/>
+      </group> <!-- Group 2 -->
+      <group name="Group 1">
+        <method signature="TestNGFeaturesTest.test2()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test2" class="class17.TestNGFeaturesTest"/>
+        <method signature="TestNGFeaturesTest.test()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test" class="class17.TestNGFeaturesTest"/>
+      </group> <!-- Group 1 -->
+    </groups>
+    <test name="Basic Tests of TestNG" duration-ms="155" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+      <class name="basicTests.AnnotationsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="test" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="test2" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:basicTests.AnnotationsTest@4b553d26]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- basicTests.AnnotationsTest -->
+      <class name="class17.TestNGFeaturesTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test2" duration-ms="7" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="test7()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test7" duration-ms="3" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test8()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test8" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "10A"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "10A"
+at java.lang.NumberFormatException.forInputString(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at java.lang.Integer.parseInt(Unknown Source)
+at class17.TestNGFeaturesTest.test8(TestNGFeaturesTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test5" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test5" duration-ms="3" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test5" duration-ms="3" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test5" duration-ms="2" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test5" duration-ms="3" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test6" duration-ms="2" started-at="2018-11-27T02:57:32Z" depends-on-methods="class17.TestNGFeaturesTest.test2" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test" duration-ms="1" started-at="2018-11-27T02:57:32Z" depends-on-methods="class17.TestNGFeaturesTest.test7" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="3" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:1, instance:class17.TestNGFeaturesTest@69a3d1d]" name="test3" duration-ms="5" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:class17.TestNGFeaturesTest@69a3d1d]" name="aftermethod" is-config="true" duration-ms="4" started-at="2018-11-27T02:57:32Z" finished-at="2018-11-27T02:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- class17.TestNGFeaturesTest -->
+    </test> <!-- Basic Tests of TestNG -->
+  </suite> <!-- TestNG testing demo -->
+</testng-results>
