@@ -1,0 +1,9 @@
+<suite name="Amazon POMs Automation test Suite">
+	<test name="Amozon Test Cases">
+		<classes>
+			<class name="testcases.DefaultPageTest"></class>
+			<class name="testcases.LoginEmailPageTest"></class>
+			<class name="testcases.LoginPasswordPageTest"></class>
+		</classes>
+	</test>
+</suite>

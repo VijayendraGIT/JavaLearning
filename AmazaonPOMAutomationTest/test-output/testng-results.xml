@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49565" started-at="2018-12-16T17:47:18Z" finished-at="2018-12-16T17:48:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49565" started-at="2018-12-16T17:47:18Z" finished-at="2018-12-16T17:48:07Z">
+      <class name="testcases.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="setup" is-config="true" duration-ms="13104" started-at="2018-12-16T17:47:19Z" finished-at="2018-12-16T17:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="newRegistration" duration-ms="2888" started-at="2018-12-16T17:47:32Z" data-provider="registationData" finished-at="2018-12-16T17:47:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="2118" started-at="2018-12-16T17:47:35Z" finished-at="2018-12-16T17:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="setup" is-config="true" duration-ms="10434" started-at="2018-12-16T17:47:37Z" finished-at="2018-12-16T17:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="newRegistration" duration-ms="3115" started-at="2018-12-16T17:47:47Z" data-provider="registationData" finished-at="2018-12-16T17:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543211]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="2125" started-at="2018-12-16T17:47:50Z" finished-at="2018-12-16T17:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="setup" is-config="true" duration-ms="10282" started-at="2018-12-16T17:47:52Z" finished-at="2018-12-16T17:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="newRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="newRegistration" duration-ms="2565" started-at="2018-12-16T17:48:03Z" data-provider="registationData" finished-at="2018-12-16T17:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harpreet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2345673290]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test435]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.RegistrationPageTest@5622fdf]" name="tearDown" is-config="true" duration-ms="2096" started-at="2018-12-16T17:48:05Z" finished-at="2018-12-16T17:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.RegistrationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
